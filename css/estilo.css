@@ -1,0 +1,33 @@
+body{
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+.menu{
+  display: flex;
+  justify-content: end;
+
+}
+
+li{
+  margin: 20px;
+  list-style: none;
+}
+
+.body-contacto{
+
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/casa-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+

@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
+<body class="body-contacto">
   <header>
     <nav>
       <ul>
@@ -42,29 +43,33 @@
 
         <div>
           <label for="nombre">Nombre*</label>
-          <input type="text" placeholder="Nombre*" required>
+          <input type="text" id="nombre" placeholder="Nombre*" required>
         </div>
         <div>
           <label for="telefono">Ingrese tu Telefono*</label>
-          <input type="text" name="telefono" placeholder="Telefono*" required>
+          <input type="text" id="telefono" placeholder="Telefono*" required>
         </div>
 
         <div>
           <label for="email">Ingrese su Email*</label>
-          <input type="email" name="email" placeholder="Ingrese su email*" required>
+          <input type="email" id="email" placeholder="Ingrese su email*" required>
         </div>
 
         <div>
           <label for="comentario">Comentarios</label>
-          <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+          <textarea  id="comentario" cols="30" rows="10"></textarea>
         </div>
         <div>
-          <button type="submit">Subir</button>
+          <button type="submit" id="btnSubir">Subir</button>
         </div>
+      </section>
+    </form>
+
+
   </main>
 
+
   <footer>
-    <footer>
       <h2>Equipo 4</h2>
       <p>Oscar Sepulveda</p>
       <p>Andres Gallo</p>
@@ -73,8 +78,8 @@
       <p>Ema Olguin</p>
       <p>Alejandro Venegas</p>
 
-    </footer>
   </footer>
+
 
 </body>
 </html>
