@@ -1,33 +1,146 @@
-body{
-  background-color: lightgrey;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-h1{
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: blue;
+header {
+    background-color: #07071b;
+    height: 300px;
 }
 
-.menu{
-  display: flex;
-  justify-content: end;
-
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
 }
 
-li{
-  margin: 20px;
-  list-style: none;
+a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    padding: 8px;
+    border: solid 2px #00f7ff;
+    border-radius: 50px;
+    position: relative;
+    top: 25px;
 }
 
-.body-contacto{
-
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/casa-4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-
+a:hover {
+    background-color: #00f7ff;
+    box-shadow: 0 0 10px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+    transition: 1s;
 }
 
+h1 {
+    color: #00f7ff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px #00f7ff, 0 0 40px #00f7ff;
+    position: relative;
+    top: -150px;
+}
+
+.p-i {
+    color: #07071b;
+    font-size: 50px;
+}
+
+.h2-i {
+    color: #07071b;
+    font-size: 100px;
+}
+
+.section-i {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    background-color: #07071be1;
+    margin: 20px;
+    padding: 30px;
+}
+
+.container figcaption {
+    color: #00f7ff;
+    font-size: 25px;
+}
+
+.container img {
+    width: 100%;
+}
+
+footer {
+    background-color: #07071b;
+    height: 200px;
+    position: relative;
+    top: 200px;
+}
+
+footer h2 {
+    color: #fff;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+footer p {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.body-contacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/casa-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.form-c {
+    background-color: #00000080;
+    width: 30%;
+    height: 500px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 4px 4px 4px #000;
+}
+
+.form-c input {
+    width: 90%;
+    height: 35px;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.form-c div label {
+    display: block;
+}
+
+.form-c div textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.form-c div button {
+    width: 50%;
+    height: 45px;
+    background-color: #006e1b;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
