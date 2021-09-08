@@ -1,20 +1,84 @@
 @media screen and (max-width:425px) {
     body {
-        background-color: blueviolet;
+        background-color: lightyellow;
         color: white;
+    }
+
+    header {
+        background-color: #07071b;
+        height: 200px;
+        width:100%;
     }
     h1 {
+      color: #00f7ff;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-shadow: 0 0 10px #00f7ff, 0 0 40px #00f7ff;
+     
+    }
+
+
+    .menu {
+        /* display: block; */
+        /* padding: 12px; */
+        position: absolute;
+        /* justify-content: flex-end; */
+        list-style: none;
+    }
+
+    .menu ul{
+
+        list-style-type: none;
+        max-resolution: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    a {
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 10px;
+        padding: 5px;
+        border: solid 2px #00f7ff;
+        border-radius: 10px;
+        position: relative;
+        top: 100px;
+    }
+
+    a:hover {
+        background-color: #00f7ff;
+        box-shadow: 0 0 10px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+        transition: 1s;
+    }
+
+
+    .p-i {
+        color: #07071b;
+        font-size: 20px;
+    }
+
+    .h2-i {
+        color: #07071b;
+        font-size: 30px;
+    }
+
+    .body-contacto {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/casa-4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         color: white;
     }
-    .container {
-        width: 95%;
-        max-width: 100%;
-        margin: auto 0;
+
+    .form-c {
+        background-color: #00000080;
+        width: 30%;
+        height: 580px;
+        padding: 40px;
+        margin: auto;
+        box-shadow: 4px 4px 4px #000;
     }
-    .container img {
-        width: 100%;
-        height: auto;
-    }
+
 }
 
 @media screen and (min-width:425px) and (max-width:768px) {
@@ -23,4 +87,10 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {}
+@media screen and (min-width:768px)
+{
+
+
+
+
+}
