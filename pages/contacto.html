@@ -40,21 +40,21 @@
             </p>
         </section>
 
-        <form class="form-c" action="" method="post">
+        <form class="form-c" action="" method="get" id="form1">
 
             <section>
                 <div>
                     <label for="nombre">Nombre*</label>
-                    <input type="text" id="nombre" required>
+                    <input type="text" id="nombre" name="nombre">
                 </div>
                 <div>
                     <label for="telefono">Ingrese tu Telefono*</label>
-                    <input type="text" id="telefono" required>
+                    <input type="text" id="telefono" name="telefono">
                 </div>
 
                 <div>
                     <label for="email">Ingrese su Email*</label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email">
                 </div>
 
                 <div>
@@ -62,7 +62,7 @@
                     <textarea id="comentario" cols="30" rows="10"></textarea>
                 </div>
                 <div>
-                    <button type="submit" id="btnSubir">Subir</button>
+                    <button type="button" id="btnSubir" onclick="validar();">Subir</button>
                 </div>
             </section>
         </form>
