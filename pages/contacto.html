@@ -6,8 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- Incluyo Jquery Base -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script> -->
+
+  
+
+
 </head>
 
 <body class="body-contacto">
@@ -44,25 +54,31 @@
 
             <section>
                 <div>
-                    <label for="nombre">Nombre*</label>
-                    <input type="text" id="nombre" name="nombre">
+                    
+                    <p>
+
+                        <label for="nombre">Nombre*</label>
+                        <input type="text" id="nombre" name="nombre"  >
+                    </p>
                 </div>
                 <div>
                     <label for="telefono">Ingrese tu Telefono*</label>
-                    <input type="text" id="telefono" name="telefono">
+                    <input type="text" id="telefono" name="telefono" >
                 </div>
 
                 <div>
                     <label for="email">Ingrese su Email*</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" >
                 </div>
 
                 <div>
                     <label for="comentario">Comentarios</label>
-                    <textarea id="comentario" cols="30" rows="10"></textarea>
+                    <textarea id="comentario" cols="30" rows="10" name="comentario"></textarea>
                 </div>
                 <div>
-                    <button type="button" id="btnSubir" onclick="validar();">Subir</button>
+                    <!-- <button type="button" id="btnSubir" onclick="validar();">Subir</button> -->
+
+                    <button type="submit" id="btnSubir" >Subir Jquery</button>
                 </div>
             </section>
         </form>
@@ -82,7 +98,9 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
     <script src="../js/funciones.js"></script>
+
 
 </body>
 
